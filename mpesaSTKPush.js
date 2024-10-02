@@ -29,9 +29,9 @@ async function MpseaSTKPush() {
       Timestamp,
       TransactionType: "CustomerPayBillOnline",
       Amount: 1,
-      PartyA: 254717369869,
+      PartyA: 254740429490,
       PartyB: 174379,
-      PhoneNumber: 254717369869,
+      PhoneNumber: 254740429490,
       CallBackURL:
         "https://8f61-197-136-183-22.ngrok-free.app/api/confirmation",
       AccountReference: "CompanyXLTD",
@@ -42,4 +42,5 @@ async function MpseaSTKPush() {
     .then((result) => console.log(result))
     .catch((error) => console.log(error));
 }
+MpseaSTKPush();
 export default MpseaSTKPush;
